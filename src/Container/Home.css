@@ -1,0 +1,9 @@
+.mainbody
+{
+    background:url("background.jpg");
+    border: 2px solid black;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}

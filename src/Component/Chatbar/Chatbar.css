@@ -1,0 +1,97 @@
+.chatbar_container
+{
+    /* border: 2px solid black; */
+    width: 70%;
+}
+.icons_working1
+{
+    height: 60px;
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+
+
+}
+.roomname
+{
+    position: relative;
+    top: -5px;
+    left: 10px;
+}
+.avatarpart1
+{
+    /* border: 2px solid black; */
+    display: flex;
+  align-self: center;
+  margin-left: 10px;
+  padding-top: 8px;
+}
+.iconpart1
+{
+    display: flex;
+    /* border: 2px solid black; */
+    align-self: center;
+    width: 30%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.message-left
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 2%;
+    clear: both;
+    border: 2px solid black;
+    background-color:#ffffff;
+    border-radius: 20px;
+}
+.message-right
+{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    clear: both;
+    padding: 2%;
+    border: 2px solid black;
+    background-color: #dcf8c6;
+    /* color: white; */
+    border-radius: 20px;
+}
+.messagebox
+{
+    height: 400px;
+    overflow-y: auto;
+}
+.buttonsend
+{
+    width:70px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.sendmessagebox
+{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+
+    
+}
+.messagesend
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    
+}
